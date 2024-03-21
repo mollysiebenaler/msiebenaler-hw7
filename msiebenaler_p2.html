@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
-    <meta charset="utf-8">
-    <h1> Business Analytics Student Survey </h1>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Business Analytics Student Survey</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
 
-  <body>
-    <main>
-        <form>
-            
-        </form>
-    </main> 
-    <p>
-        <button onclick="window.location.href='msiebenaler_p3.html';">Next</button>
-    </p> 
+<body>
+  <main>
+    <form>
+
+      <fieldset>
+        <legend>I am finishing my</legend>
+        <label for="first">
+          <input type="radio" id="first" name="year" value="first"> first year at Iowa
+        </label>
+        <br>
+        <label for="second">
+          <input type="radio" id="second" name="year" value="second"> second year at Iowa
+        </label>
+        <br>
+        <label for="third">
+          <input type="radio" id="third" name="year" value="third"> third year at Iowa
+        </label>
+        <br>
+        <label for="fourth">
+          <input type="radio" id="fourth" name="year" value="fourth"> fourth year at Iowa
+        </label>
+        <br>
+        <label for="fifth">
+          <input type="radio" id="fifth" name="year" value="fifth"> fifth or more year at Iowa
+        </label>
+        <br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>BAIS core classes I have completed</legend>
+        <label for="information_systems">
+          <input type="checkbox" id="information_systems" name="classes" value="information_systems"> Information systems
+        </label>
+        <br>
+        <label for="operations">
+          <input type="checkbox" id="operations" name="classes" value="operations"> Operations
+        </label>
+        <br>
+        <label for="foundations_business_analytics">
+          <input type="checkbox" id="foundations_business_analytics" name="classes" value="foundations_business_analytics"> Foundations of Business Analytics
+        </label>
+        <br>
+        <label for="computational_thinking">
+          <input type="checkbox" id="computational_thinking" name="classes" value="computational_thinking"> Computational Thinking
+        </label>
+        <br>
+        <label for="database_management">
+          <input type="checkbox" id="database_management" name="classes" value="database_management"> Database Management
+        </label>
+        <br>
+        <label for="data_wrangling">
+          <input type="checkbox" id="data_wrangling" name="classes" value="data_wrangling"> Data Wrangling
+        </label>
+        <br>
+        <label for="data_mining">
+          <input type="checkbox" id="data_mining" name="classes" value="data_mining"> Data Mining
+        </label>
+        <br>
+        <label for="bais_capstone">
+          <input type="checkbox" id="bais_capstone" name="classes" value="bais_capstone"> BAIS Capstone
+        </label>
+        <br>
+      </fieldset>
+
+    </form>
+  </main>
+  <br>
+  <br>
+  <footer>
+    <span class="page_number">page 2 of 3</span>
+    <button class="next_button" onclick="window.location.href='msiebenaler_p3.html';">Next</button>
+  </footer>
+</body>
 
 </html>
