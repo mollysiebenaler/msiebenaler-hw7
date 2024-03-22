@@ -4,22 +4,130 @@
   <head>
     <meta charset="utf-8">
     <title> Business Analytics Student Survey </title>
-    <link rel="stylesheet" href="sylesheet.css">
+    <script src="https://kit.fontawesome.com/ec46a41ea7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
+    <div id = "container">
     <main>
+      <h1> Business Analytics Student Survey </h1>
         <form>
+
+          <fieldset>
+            <legend> What is your race?  (One or more categories may be selected) </legend>
+              <label for="white">
+                <input type="checkbox" id="white" name="race" value ="white"> White
+              </label>    
+              <br>
+              <label for="black">
+                <input type="checkbox" id="black" name="race" value="black"> Black or African American
+              </label>
+              <br>
+              <label for="american_indian">
+                <input type="checkbox" id="american_indian" name="race" value="american_indian"> American Indian or Alaska Native
+              </label>
+              <label for="asian_indian">
+                <input type="checkbox" id="asian_indian" name="race" value="asian_indian"> Asian Indian
+              </label>
+              <br>
+              <label for="chinese">
+                <input type="checkbox" id="chinese" name="race" value="chinese"> Chinese
+              </label>
+              <br>
+              <label for="filipino">
+                <input type="checkbox" id="filipino" name="race" value="filipino"> Filipino
+              </label>
+              <br>
+              <label for="japanese">
+                <input type="checkbox" id="japanese" name="race" value="japanese"> Japanese
+              </label>
+              <br>
+              <label for="korean">
+                <input type="checkbox" id="korean" name="race" value="korean"> Korean
+              </label>
+              <br>
+              <label for="vietnamese">
+                <input type="checkbox" id="vietnamese" name="race" value="vietnamese"> Vietnamese
+              </label>
+              <br>
+              <label for="other_asian">
+                <input type="checkbox" id="other_asian" name="race" value="other_asian"> Other Asian
+              </label>
+              <br>
+              <label for="native_hawaiian">
+                <input type="checkbox" id="native_hawaiian" name="race" value="native_hawaiian"> Native Hawaiian
+              </label>
+              <br>
+              <label for="guamanian_chamorro">
+                <input type="checkbox" id="guamanian_chamorro" name="race" value="guamanian_chamorro"> Guamanian or Chamorro
+              </label>
+              <br>
+              <label for="samoan">
+                <input type="checkbox" id="samoan" name="race" value="samoan"> Samoan
+              </label>
+              <br>
+              <label for="other_pacific_islander">
+                <input type="checkbox" id="other_pacific_islander" name="race" value="other_pacific_islander"> Other Pacific Islander
+              </label>
+              
+          </fieldset>
+
+          <br>
+          
+          <fieldset>
+            <legend> Which category best represents your gender? <span class="tooltip">
+              <i class="fa-solid fa-circle-info fontawesome"></i>
+              <span class="tooltip tooltiptext">Letting us know how you identify yourself helps us measure and enhance diversity and inclusivity in tech by addressing historical gender imbalances.
+              </span>
+          </span> </legend>
+              <label for="man">
+                <input type="checkbox" id="man" name="gender" value ="man"> Man
+              </label>    
+              <br>
+              <label for="woman">
+                <input type="checkbox" id="woman" name="gender" value="woman"> Woman
+              </label>
+              <br>
+              <label for="trans_man">
+                <input type="checkbox" id="trans_man" name="gender" value="trans_man"> Trans Man
+              </label>
+              <br>
+              <label for="trans_woman">
+                <input type="checkbox" id="trans_woman" name="gender" value="trans_woman"> Trans Woman
+              </label>
+              <br>
+              <label for="genderqueer">
+                <input type="checkbox" id="genderqueer" name="gender" value="genderqueer"> Genderqueer
+              </label>
+              <br>
+              <label for="gender_non_conforming">
+                <input type="checkbox" id="gender_non_conforming" name="gender" value="gender_non_conforming"> Gender Non-conforming
+              </label>
+              <br>
+            <label for="non_binary">
+                <input type="checkbox" id="non_binary" name="gender" value="non_binary"> Non-binary
+            </label>
+            <br>
+            <label for="multi_gender">
+                <input type="checkbox" id="multi_gender" name="gender" value="multi_gender"> Multi-gender
+            </label>
+            <br>
+            <label for="decline">
+                <input type="checkbox" id="decline" name="gender" value="decline"> Decline to state
+            </label>
             
+          </fieldset> 
+                
         </form>
     </main> 
     <br> 
     <footer>
         <span class="page_number"> page 3 of 3 </span>
 
-        <button class="next_button" onclick="window.location.href='msiebenaler_ty.html';">Finish</button>
+        <button class="next_button" onclick="window.location.href='msiebenaler_ty.html';">Next</button>
     </footer>
-
+    </div>
    </body>
 
 </html>

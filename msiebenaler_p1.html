@@ -4,24 +4,25 @@
   <head>
     <meta charset="utf-8">
     <title> Business Analytics Student Survey </title>
-    <link rel="stylesheet" href="sylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
+    <div id = "container">
     <main>
+        <h1> Business Analytics Student Survey </h1>
         <form>
 
             <br>
-            <label for="country">
-                My home country is <input type="text" id="country" required autofocus>
+            <label for="country"> <b>My home country is <input type="text" id="country" autofocus> </b>
             </label>
             <br>
-            <label for="hometown">
-                My home town is <input type="text" id="hometown" required>
+            <br>
+            <label for="hometown"> <b> My home town is <input type="text" id="hometown" required> </b>
             </label> 
             <br>
-            <label for="state">
-                My home state is <select name="state" id="state">
+            <br>
+            <label for="state"> <b> My home state is <select name="state" id="state"> </b>
                     <option value="" selected>-- choose state/territory --</option>
                     <option value="AL">AL</option>
                     <option value="AK">AK</option>
@@ -84,9 +85,8 @@
                 </select>
             </label>
         <br>
-
-        <label for="impression">
-                My impression of the BAIS major is <select name="impression" id="impression" required>
+        <br>
+        <label for="impression"> <b> My impression of the BAIS major is <select name="impression" id="impression" required> </b>
                     <option value="" selected>-- choose impression --</option>
                     <option value="Very positive, 5">Very positive, 5</option>
                     <option value="Somewhat positive, 4">Somewhat positive, 4</option>
@@ -103,7 +103,7 @@
 
         <button class="next_button" onclick="window.location.href='msiebenaler_p2.html';">Next</button>
     </footer>
-
+    </div>
   </body>
 
 </html>

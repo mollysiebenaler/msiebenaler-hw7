@@ -1,0 +1,82 @@
+body{
+    background-color: offwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-face-smile {
+    color: #FFD700;
+
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 1.2rem;
+
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    
+}
+
+fieldset {
+    border: 2px solid #FFD700;
+    font-weight: bold;
+}
+
+#container{
+    width:85%
+    margin:0 auto
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333333;
+    color: #f8f8f8;
+    font-size: 1.15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.page_number{float:left;
+}
+
+.next_button{float:right;
+    .margin-right: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.required{
+    color: darkred;
+    font-size: .8rem;
+    font-style: italic
+}
+
+.bold {
+    font-weight: bold;
+}
